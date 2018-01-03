@@ -13,6 +13,11 @@
 		27E63DF71FFD0446007E3B2E /* FunnyMath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E63DF51FFD0446007E3B2E /* FunnyMath.xcdatamodeld */; };
 		27E63DF91FFD0446007E3B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E63DF81FFD0446007E3B2E /* Assets.xcassets */; };
 		27E63DFC1FFD0446007E3B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E63DFA1FFD0446007E3B2E /* LaunchScreen.storyboard */; };
+		27E63E0E1FFD04B2007E3B2E /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E091FFD04B2007E3B2E /* note3.png */; };
+		27E63E0F1FFD04B2007E3B2E /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E0A1FFD04B2007E3B2E /* board.png */; };
+		27E63E101FFD04B2007E3B2E /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E0B1FFD04B2007E3B2E /* note1.png */; };
+		27E63E111FFD04B2007E3B2E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E0C1FFD04B2007E3B2E /* background.jpg */; };
+		27E63E121FFD04B2007E3B2E /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E63E0D1FFD04B2007E3B2E /* note2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		27E63DF81FFD0446007E3B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E63DFB1FFD0446007E3B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E63DFD1FFD0446007E3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E63E091FFD04B2007E3B2E /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
+		27E63E0A1FFD04B2007E3B2E /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		27E63E0B1FFD04B2007E3B2E /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		27E63E0C1FFD04B2007E3B2E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		27E63E0D1FFD04B2007E3B2E /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		27E63DED1FFD0446007E3B2E /* FunnyMath */ = {
 			isa = PBXGroup;
 			children = (
+				27E63E031FFD047B007E3B2E /* Resources */,
 				27E63DEE1FFD0446007E3B2E /* AppDelegate.swift */,
 				27E63DF01FFD0446007E3B2E /* ViewController.swift */,
 				27E63DF21FFD0446007E3B2E /* Main.storyboard */,
@@ -65,6 +76,18 @@
 				27E63DF51FFD0446007E3B2E /* FunnyMath.xcdatamodeld */,
 			);
 			path = FunnyMath;
+			sourceTree = "<group>";
+		};
+		27E63E031FFD047B007E3B2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E63E0C1FFD04B2007E3B2E /* background.jpg */,
+				27E63E0A1FFD04B2007E3B2E /* board.png */,
+				27E63E0B1FFD04B2007E3B2E /* note1.png */,
+				27E63E0D1FFD04B2007E3B2E /* note2.png */,
+				27E63E091FFD04B2007E3B2E /* note3.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E63DFC1FFD0446007E3B2E /* LaunchScreen.storyboard in Resources */,
+				27E63E0E1FFD04B2007E3B2E /* note3.png in Resources */,
+				27E63E111FFD04B2007E3B2E /* background.jpg in Resources */,
 				27E63DF91FFD0446007E3B2E /* Assets.xcassets in Resources */,
+				27E63E121FFD04B2007E3B2E /* note2.png in Resources */,
+				27E63E101FFD04B2007E3B2E /* note1.png in Resources */,
+				27E63E0F1FFD04B2007E3B2E /* board.png in Resources */,
 				27E63DF41FFD0446007E3B2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
